@@ -47,7 +47,7 @@ Theme URI: http://www.htmlbeans.com/html/app-landing
 /*------------------------------------------------------------------
 1. import files / import files
 -------------------------------------------------------------------*/
-.social-networks, .features-list, .facts-list, .demo-block ul, .price-col ul {
+.social-networks, .social-networks2 .features-list, .facts-list, .demo-block ul, .price-col ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1092,7 +1092,7 @@ a:hover, a:focus, a.active {
   float: right;
   width: calc(100% - 150px);
   position: static;
-  margin: -4px 0 0;
+  margin: 0 0 0;
   padding: 0;
 }
 
@@ -1134,7 +1134,7 @@ a:hover, a:focus, a.active {
 
 .navbar-default .navbar-nav {
   letter-spacing: 1px;
-  font-size: 13px;
+  font-size: 20px;
   line-height: 17px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1344,7 +1344,7 @@ a:hover, a:focus, a.active {
   font-family: empty;
 }
 
-.social-networks li {
+.social-networks li,.social-networks2 li {
   display: inline-block;
   vertical-align: top;
   margin: 0 2px 5px;

@@ -1381,7 +1381,7 @@ html {
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
-  line-height: 1.875;
+  line-height: 4;
   color: #666;
   background-color: #fff;
 }
@@ -1396,7 +1396,7 @@ textarea {
 }
 
 a {
-  color: #222222;
+  color: #BBFFCB;
   text-decoration: none;
 }
 
