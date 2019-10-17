@@ -1,4 +1,4 @@
-.clearfix:after {
+  .clearfix:after {
   content: '';
   display: block;
   clear: both; }
@@ -123,7 +123,7 @@
             .sticky .navbar-default .navbar-nav > li > a:after {
               border-color: #222222; }
           .sticky .navbar-default .navbar-nav > li > a {
-            color: #222222; }
+            color: #fff }
   .main-nav {
     position: absolute;
     left: 0;

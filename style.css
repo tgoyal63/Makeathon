@@ -989,6 +989,16 @@ a:hover, a:focus, a.active {
   color: #fff;
 }
 
+.btn-default.btn-blue {
+  border-radius: 99px;
+  border-color: #000;
+  background: none;
+  color: #000;
+}
+.btn-default.btn-blue:hover{
+  color:#fff;
+}
+
 .sticky-header.sticky .btn-default.btn-white {
   color: #222222;
   border-color: #222222;
@@ -1049,7 +1059,7 @@ a:hover, a:focus, a.active {
 
 #header.sticky {
   position: fixed;
-  background: #fff;
+  background: #000;
   height: auto !important;
   box-shadow: 0 0 11px 2px rgba(0, 0, 0, 0.1);
 }
@@ -1340,23 +1350,23 @@ a:hover, a:focus, a.active {
 /*------------------------------------------------------------------
 13. Social Networks / .social-networks
 -------------------------------------------------------------------*/
-.social-networks {
+.fa-ul {
   font-family: empty;
 }
 
-.social-networks li,.social-networks2 li {
+.social-networks2 li, .fa-ul li {
   display: inline-block;
   vertical-align: top;
-  margin: 0 2px 5px;
+  margin: 0 2px 3px;
 }
 
-.social-networks a {
+.fa-ul a {
   display: block;
-  width: 31px;
-  height: 31px;
+  width: 35px;
+  height: 35px;
   text-align: center;
   color: #fff;
-  font-size: 12px;
+  font-size: 18px;
   background: #082c38;
   position: relative;
   overflow: hidden;
@@ -1364,11 +1374,11 @@ a:hover, a:focus, a.active {
   transition: all 0.25s linear;
 }
 
-.social-networks a:hover, .social-networks a:focus, .social-networks a:active {
+.fa-ul a:hover, .fa-ul a:focus, .fa-ul a:active {
   background: #5bc0de;
 }
 
-.social-networks .icon {
+.fa-ul .fa {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1628,6 +1638,8 @@ a:hover, a:focus, a.active {
   padding-top: 35px;
   overflow: hidden;
   position: relative;
+  background-attachment: fixed;
+  background-image: url(images/asset2.svg);
   padding-bottom: 40px;
 }
 
@@ -2080,7 +2092,7 @@ a:hover, a:focus, a.active {
 #footer {
   color: #d9dbdc;
   text-align: center;
-  padding-bottom: 77px;
+  /*padding-bottom: 77px;*/
   background-color: #021116;
 }
 
