@@ -227,7 +227,7 @@
         this.firstTick = false;
         return;
       } else {
-        this.totalSecsLeft = newTotalSecsLeft;
+        this.totalSecsLeft = newTotalSecsLeft + 43200;
       }
       // Check if the countdown has elapsed
       this.elapsed = (now >= this.finalDate);
@@ -235,7 +235,7 @@
       this.offset = {
         seconds     : this.totalSecsLeft % 60,
         minutes     : Math.floor(this.totalSecsLeft / 60) % 60,
-        hours       : Math.floor(this.totalSecsLeft / 60 / 60) % 24,
+        hours       : Math.floor(this.totalSecsLeft / 60 / 60) % 24 ,
         days        : Math.floor(this.totalSecsLeft / 60 / 60 / 24) % 7,
         daysToWeek  : Math.floor(this.totalSecsLeft / 60 / 60 / 24) % 7,
         daysToMonth : Math.floor(this.totalSecsLeft / 60 / 60 / 24 % 30.4368),
